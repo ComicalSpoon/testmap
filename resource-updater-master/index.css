@@ -1,0 +1,81 @@
+.title {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#map {
+  margin-top: 20px !important;
+  height: 500px;
+  margin-left: 20px !important;
+  margin: auto;
+  border-radius: 2rem;
+}
+
+.terrContainer {
+  padding: 12px !important;
+}
+
+.terr {
+  background-color: #a6cfff;
+  border-radius: 2rem;
+  padding: 10px;
+  cursor: pointer;
+  height: 100%;
+}
+
+.selected {
+  background-color: #6db1ff !important;
+  border: 1px solid black;
+}
+
+.rightStrip {
+  background-color: #6db1ff;
+  padding: 10px;
+  position: sticky;
+  top: 0%;
+  height: 100vh;
+  margin-left: 50px;
+  color: black;
+  opacity: 0.8;
+  overflow-y: auto;
+}
+
+#terrsToModify {
+  margin: 20px;
+}
+
+.upgradeBox {
+  padding: 5px;
+}
+
+.treasuryOptions {
+  margin-top: 10px;
+}
+
+.arrowText {
+  border: 1px solid gray;
+  padding: 5px !important;
+  display: inline-block !important;
+  font-size: 12px;
+  width: 69% !important;
+}
+
+.modifyUpgrade {
+  padding: 0px !important;
+  border: 0px;
+  width: 10%;
+  height: 100%;
+}
+
+th, td {
+  padding: 5px;
+}
+
+.tradeInput {
+  margin: 5px;
+}
+
+#updateTrade {
+  margin: 5px;
+  width: 100%;
+}
